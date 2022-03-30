@@ -36,7 +36,7 @@
          class="navbar-nav me-auto mb-2 mb-lg-0 nav-pills"
        >
          <li class="nav-item">
-           <a href="#portfolio" class="nav-link">Portfolio</a>
+           <a href="#portfolio" class="nav-link active">Portfolio</a>
          </li>
          <li class="nav-item">
            <a href="#about" class="nav-link"> About </a>
@@ -230,11 +230,11 @@
               <h4 class="text-light"> Frameworks</h4>
             </header>
             <ul class="list-unstyled">
-              <li class="frame-list-item"><a class="text-decoration-none" href="">Bootstrap</a></li>
-              <li class="frame-list-item"><a class="text-decoration-none" href="">Ruby on Rails</a></li>
-              <li class="frame-list-item"><a class="text-decoration-none" href="">RSPec</a></li>
-              <li class="frame-list-item"><a class="text-decoration-none" href="">CapyBara</a></li>
-              <li class="frame-list-item"><a class="text-decoration-none" href="">Selenium</a></li>
+              <li><a class="text-decoration-none" href="">Bootstrap</a></li>
+              <li><a class="text-decoration-none" href="">Ruby on Rails</a></li>
+              <li><a class="text-decoration-none" href="">RSPec</a></li>
+              <li><a class="text-decoration-none" href="">CapyBara</a></li>
+              <li><a class="text-decoration-none" href="">Selenium</a></li>
             </ul>
           </article>
           <article class="col-lg-4">
@@ -243,27 +243,27 @@
               <h4 class="text-light">Skills</h4>
             </header>
             <ul class="list-unstyled">
-              <li class="skills-list-item"><a class="text-decoration-none" href="">Codekit</a></li>
-              <li class="skills-list-item"><a class="text-decoration-none" href="">Github</a></li>
-              <li class="skills-list-item"><a class="text-decoration-none" href="">Codepen</a></li>
-              <li class="skills-list-item"><a class="text-decoration-none" href="">Gitlab</a></li>
-              <li class="skills-list-item"><a class="text-decoration-none" href="">Terminal</a></li>
+              <li><a class="text-decoration-none" href="">Codekit</a></li>
+              <li><a class="text-decoration-none" href="">Github</a></li>
+              <li><a class="text-decoration-none" href="">Codepen</a></li>
+              <li><a class="text-decoration-none" href="">Gitlab</a></li>
+              <li><a class="text-decoration-none" href="">Terminal</a></li>
             </ul>
           </article>
         </div>
       </section>
-      <section class="form-section pt-5 p-5 my-5" id="contact">
-        <header class="form-header">
+      <section class="pt-5 my-5 mx-3 row" id="contact">
+        <header class="col-lg-6">
           <h2 
-          class="mt-3"
+          class="mt-3 display-4 text-primary" style="width: 100%;"
             >I'm always interested in hearing about new projects, so if you'd
             like to chat please get in touch.</h2
           >
         </header>
-        <form action="https://formspree.io/f/xjvlozll" method="post">
-          <ul class="form-list form-container">
-            <li class="form-list-items">
-              <label for="name">
+        <form class="col-lg-6" action="https://formspree.io/f/xjvlozll" method="post">
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              <label class="form-label w-100" for="name">
                 <input
                   type="text"
                   name="Name"
@@ -271,24 +271,24 @@
                   placeholder="Full name"
                   maxlength="30"
                   required
-                  class="input"
+                  class="form-control w-100"
                 />
               </label>
             </li>
-            <li class="form-list-items">
-              <label for="email">
+            <li class="mb-3">
+              <label class="form-label w-100" for="email">
                 <input
                   type="email"
                   name="Email"
                   id="email"
                   placeholder="Email address"
                   required
-                  class="input"
+                  class="form-control"
                 />
               </label>
             </li>
-            <li class="form-list-items">
-              <label for="message">
+            <li class="mb-3">
+              <label class="form-label w-100" for="message">
                 <textarea
                   name="message"
                   id="message"
@@ -297,12 +297,12 @@
                   maxlength="500"
                   placeholder="Enter text here"
                   required
-                  class="text-area"
+                  class="form-control"
                 ></textarea>
               </label>
             </li>
             <li class="form-list-items list-btn">
-              <input type="submit" value="Get in touch" class="btn form-btn" />
+              <input type="submit" value="Get in touch" class="btn btn-warning text-light" />
             </li>
           </ul>
         </form>
@@ -310,27 +310,27 @@
 
       <hr class="footer-line" />
 
-      <footer class="footer-icons">
-        <ul class="icon footer-container">
-          <li>
+      <footer class="d-flex justify-content-center">
+        <ul class="row list-unstyled">
+          <li class="col">
             <a href="#">
               <img src="./image/Githubfooter.png" alt="Github footer" />
             </a>
           </li>
-          <li>
+          <li class="col">
             <a href="#">
               <img src="./image/linkedinfooter.png" alt="linkedin footer" />
             </a>
           </li>
-          <li>
+          <li class="col">
             <a href="#"><img src="./image/fingfooter.png" alt="fingers" /> </a>
           </li>
-          <li>
+          <li class="col">
             <a href="#">
               <img src="./image/twitterfooter.png" alt="twitter" />
             </a>
           </li>
-          <li>
+          <li class="col">
             <a href="#">
               <img src="./image/Mfooter.png" alt="M icon" />
             </a>
