@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My portfolio with Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg fixed-top bg-secondary p-3 text-white"
+      id="navbar-example2"
+    >
+    <div class="container-fluid">
+     <a href="#" class="navbar-brand mx-5">Sunday Stanley</a>
+     <button
+     class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
+       </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul
+         class="navbar-nav me-auto mb-2 mb-lg-0 nav-pills"
+       >
+         <li class="nav-item">
+           <a href="#portfolio" class="nav-link active">Portfolio</a>
+         </li>
+         <li class="nav-item">
+           <a href="#about" class="nav-link"> About </a>
+         </li>
+         <li class="nav-item">
+           <a href="#contact" class="nav-link">Contact</a>
+         </li>
+         <li class="nav-item">
+           <a href="" class="nav-link"
+             ><img src="./image/msg.png" alt="msg icon"
+           /></a>
+         </li>
+       </ul>
+      </div>
+    </nav>
+    <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-exampl" tabindex="0">
+      <section class="bio-container bg-dark p-5 my-5 d-flex text-white bg-image">
+        <article class="bio-header order-2 container d-flex row">
+          <h1 class="text-warning">Hey There. I’m Stanley</h1>
+          <h2 class="text-light">I’am a Software Developer</h2>
+          <p class="paragragh flex"
+            >I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hestiate to contact me.</p
+          >
+        </article>
+        <ul class="icon order-1 list-unstyled mx-5">
+          <li>
+            <a href=""><img src="./image/GitIcon.png" alt="git icon" /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="./image/LinkedInIcon.png" alt="linkedin icon"
+            /></a>
+          </li>
+          <li>
+            <a href=""><img src="./image/finIcon.png" alt="fin icon" /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="./image/twitterIcon.png" alt="twitter icon"
+            /></a>
+          </li>
+          <li>
+            <a href=""><img src="./image/mIcon.png" alt="m icon" /></a>
+          </li>
+        </ul>
+      </section>
+      <section class="pt-5 p-5 my-5" id="portfolio">
+        <header class="">
+          <h2
+          class="mt-3"
+          >My Recent Works</h2>
+          <hr class="" />
+        </header>
+        <article class="row">
+          <img src="./image/First-img.png" alt="" class="col-lg-7" />
+          <div class="post-body col-lg">
+            <header>
+              <h2 class="post-header mb-4 display-3">Multi-Post Stories</h2>
+            </header>
+            <p class="post-story font-size ">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a standard
+              dummy text.
+            </p>
+            <ul class="list-unstyled row list-group-horizontal">
+              <li class="col-sm-2"><a href="" class="list-group-item">css</a></li>
+              <li class="col-sm-2  mx-1"><a href="" class="list-group-item">html</a></li>
+              <li class="col-sm-3 mx-1 "><a href="" class="list-group-item">bootstrap</a></li>
+              <li class="col-sm-2 mx-1"><a href="" class="list-group-item">Ruby</a></li>
+            </ul>
+            <button type="button" class="btn btn-warning text-light">See Project</button>
+          </div>
+        </article>
+        <div class="row mt-5">
+          <article class="bg-image col-lg-3 card cd-1 me-5">
+            <h3 class="mt-4 card-title">Profesional Art Printing Data</h3>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul class="list-group-horizontal">
+              <li class="list-group-item"><a href="">html</a></li>
+              <li class="list-group-item"><a href="">bootstrap</a></li>
+              <li class="list-group-item"><a href="">Ruby</a></li>
+            </ul>
+            <button class="btn btn-warning">See Project</button>
+          </article>
+          <article class="col-lg-3 card cd-2 style me-5">
+            <h3 class="card-title mt-4">Data Dashboard Healthcare</h3>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul class="list-group-horizontal list-unstyled">
+              <li><a class="list-group-item" href="">html</a></li>
+              <li><a class="list-group-item" href="">bootstrap</a></li>
+              <li><a class="list-group-item" href="">Ruby</a></li>
+            </ul>
+            <button class="btn btn-warning">See Project</button>
+          </article>
+          <article class="col-lg-3 me-3 cd-3 card ">
+            <h3>Website Protfolio</h3>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul class="list-group-horizontal">
+              <li class="list-group-item"><a href="">html</a></li>
+              <li class="list-group-item"><a href="">bootstrap</a></li>
+              <li class="list-group-item"><a href="">Ruby</a></li>
+            </ul>
+            <button class="btn btn-warning">See Project</button>
+          </article>
+          <article class="card col-lg-3 cd-2 me-5 ">
+            <h3>Profesional Art Printing Data More</h3>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul class="list-group-horizontal">
+              <li class="list-group-item"><a href="">html</a></li>
+              <li class="list-group-item"><a href="">bootstrap</a></li>
+              <li class="list-group-item"><a href="">Ruby</a></li>
+            </ul>
+            <button class="btn btn-warning">See Project</button>
+          </article>
+          <article class="col-lg-3 me-5 card cd-4">
+            <h3>Data Dashboard Healthcare</h3>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul class="list-group-horizontal">
+              <li class="list-group-item"><a href="">html</a></li>
+              <li class="list-group-item"><a href="">bootstrap</a></li>
+              <li class="list-group-item"><a href="">Ruby</a></li>
+            </ul>
+            <button class="btn btn-warning">See Project</button>
+          </article>
+          <article class="card col-lg-3 cd-5">
+            <h3>Website Protfolio</h3>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul class="list-group-horizontal">
+              <li class="list-group-item"><a href="">html</a></li>
+              <li class="list-group-item"><a href="">bootstrap</a></li>
+              <li class="list-group-item"><a href="">Ruby</a></li>
+            </ul>
+            <button class="btn btn-warning">See Project</button>
+          </article>
+        </div>
+      </section>
+      <section class="about-me pt-5 my-5 bg-dark" id="about">
+        <article class="container about-bg about bg-image ps-5 my-5 col">
+          <header class="about-me-head row">
+            <h2 
+            class="mt-3 display-3 text-warning"
+            >About me</h2>
+          </header>
+          <p class="text-light w-50 row"
+            >Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.</p
+          >
+          <button type="button" class="btn btn-warning text-light row">Get My Resume</button>
+        </article>
+        <hr />
+        <div class="row container mx-5">
+          <article class="col-lg-4">
+            <header class="lang-header">
+              <span></span>
+              <h4 class="text-light">Language</h4>
+            </header>
+            <ul class="list-unstyled">
+              <li class="list-unstyled"><a class="text-decoration-none"  href="">Javascript</a></li>
+              <li class="lang-list-item"><a class="text-decoration-none" href="">Ruby</a></li>
+              <li class="lang-list-item"><a class="text-decoration-none"  href="">Html</a></li>
+              <li class="lang-list-item"><a class="text-decoration-none"  href="">Css</a></li>
+            </ul>
+          </article>
+          <article class="col-lg-4">
+            <header class="frame-header">
+              <span></span>
+              <h4 class="text-light"> Frameworks</h4>
+            </header>
+            <ul class="list-unstyled">
+              <li><a class="text-decoration-none" href="">Bootstrap</a></li>
+              <li><a class="text-decoration-none" href="">Ruby on Rails</a></li>
+              <li><a class="text-decoration-none" href="">RSPec</a></li>
+              <li><a class="text-decoration-none" href="">CapyBara</a></li>
+              <li><a class="text-decoration-none" href="">Selenium</a></li>
+            </ul>
+          </article>
+          <article class="col-lg-4">
+            <header class="skills-header">
+              <span></span>
+              <h4 class="text-light">Skills</h4>
+            </header>
+            <ul class="list-unstyled">
+              <li><a class="text-decoration-none" href="">Codekit</a></li>
+              <li><a class="text-decoration-none" href="">Github</a></li>
+              <li><a class="text-decoration-none" href="">Codepen</a></li>
+              <li><a class="text-decoration-none" href="">Gitlab</a></li>
+              <li><a class="text-decoration-none" href="">Terminal</a></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      <section class="pt-5 my-5 mx-3 row" id="contact">
+        <header class="col-lg-6">
+          <h2 
+          class="mt-3 display-4 text-primary w-100"
+            >I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.</h2
+          >
+        </header>
+        <form class="col-lg-6" action="https://formspree.io/f/xjvlozll" method="post">
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              <label class="form-label w-100" for="name">
+                <input
+                  type="text"
+                  name="Name"
+                  id="name"
+                  placeholder="Full name"
+                  maxlength="30"
+                  required
+                  class="form-control w-100"
+                />
+              </label>
+            </li>
+            <li class="mb-3">
+              <label class="form-label w-100" for="email">
+                <input
+                  type="email"
+                  name="Email"
+                  id="email"
+                  placeholder="Email address"
+                  required
+                  class="form-control"
+                />
+              </label>
+            </li>
+            <li class="mb-3">
+              <label class="form-label w-100" for="message">
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="11"
+                  maxlength="500"
+                  placeholder="Enter text here"
+                  required
+                  class="form-control"
+                ></textarea>
+              </label>
+            </li>
+            <li class="form-list-items list-btn">
+              <input type="submit" value="Get in touch" class="btn btn-warning text-light" />
+            </li>
+          </ul>
+        </form>
+      </section>
+
+      <hr class="footer-line" />
+
+      <footer class="d-flex justify-content-center">
+        <ul class="row list-unstyled">
+          <li class="col">
+            <a href="#">
+              <img src="./image/Githubfooter.png" alt="Github footer" />
+            </a>
+          </li>
+          <li class="col">
+            <a href="#">
+              <img src="./image/linkedinfooter.png" alt="linkedin footer" />
+            </a>
+          </li>
+          <li class="col">
+            <a href="#"><img src="./image/fingfooter.png" alt="fingers" /> </a>
+          </li>
+          <li class="col">
+            <a href="#">
+              <img src="./image/twitterfooter.png" alt="twitter" />
+            </a>
+          </li>
+          <li class="col">
+            <a href="#">
+              <img src="./image/Mfooter.png" alt="M icon" />
+            </a>
+          </li>
+        </ul>
+      </footer>
+      <hr class="bottom-line" />
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

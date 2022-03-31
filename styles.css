@@ -1,0 +1,34 @@
+.bio-container {
+  background-image: url(./image/bg-img.png);
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+}
+
+.cd-1 {
+  background-image: url(./image//card-1.png);
+  background-repeat: no-repeat;
+}
+
+.cd-2 {
+  background-image: url(./image/card-2.png);
+}
+
+.cd-3 {
+  background-image: url(./image/card-1.png);
+}
+
+.cd-4 {
+  background-image: url(./image/card-2.png);
+}
+
+.cd-5 {
+  background-image: url(./image/card-3.png);
+}
+
+.about-bg {
+  background-image: url(./image/about-base.png);
+  background-repeat: no-repeat;
+  background-position: 100% 60%;
+  background-size: 50% 560px;
+  height: 500px;
+}
